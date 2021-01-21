@@ -48,7 +48,7 @@ function draw() {
   star.x = starBody.position.x
   star.y = starBody.position.y
 
-  if (starBody.position.y > 470) {
+  if (starBody.position.y > 440) {
 	Matter.Body.setStatic(starBody,true);
   }
 
