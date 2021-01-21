@@ -49,7 +49,7 @@ function draw() {
   star.y = starBody.position.y
 
   if (starBody.position.y > 470) {
-	Matter.Body.setStatic(starBody > false);
+	Matter.Body.setStatic(starBody,true);
   }
 
   drawSprites();
